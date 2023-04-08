@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    ssm,
+    sfsu,
   } from "../assets";
   
   export const navLinks = [
@@ -114,8 +116,8 @@ import {
     {
       title: "Software Trainee",
       company_name: "SSM Infotech",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: ssm,
+      iconBg: "#E6DEDD",
       date: "July 2018 - August 2018",
       points: [
         "Designed and tested client-server network components.",
@@ -127,8 +129,8 @@ import {
     {
       title: "Student Instructor",
       company_name: "San Francisco State University",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: sfsu,
+      iconBg: "#383E56",
       date: "Jan 2020 - Present",
       points: [
         "Mentored students with fair yet specific performance modules, offering support when needed, and providing constructive feedback on a case-by-case basis.",
