@@ -78,7 +78,7 @@ const Works = () => {
       <div className="full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] font-normal"
         >
           I am a Software Engineer student who is graduating soon and seeking a job in 
           the industry. In this section, I display some of the projects I have completed 
@@ -90,7 +90,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-7 font-light'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
