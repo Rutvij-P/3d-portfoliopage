@@ -25,9 +25,9 @@ const Navbar = () => {
         >
           
         <img src={logo} alt="logo" className="w-8 h-8 object-contain" />
-        <p className="text-white text-[18px] font-bold cursor-pointer flex">
+        <p className="text-white text-[20px] font-bold cursor-pointer flex font-Trap">
           Rutu &nbsp; 
-          <span className="sm:block hidden">| Rutvij-P</span>
+          <span className="sm:block hidden font-Trap">| Rutvij-P</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

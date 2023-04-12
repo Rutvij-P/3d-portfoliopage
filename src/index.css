@@ -13,6 +13,53 @@
   color-scheme: dark;
 }
 
+@font-face {
+  font-family: "Guminert";
+  src: url("./fonts/Guminert.ttf");
+}
+
+@font-face {
+  font-family: "Trap";
+  src: url("./fonts/Trap_V1.1/Trap-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trap";
+  src: url("./fonts/Trap_V1.1/Trap-Bold.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trap";
+  src: url("./fonts/Trap_V1.1/Trap-Italic.otf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Trap";
+  src: url("./fonts/Trap_V1.1/Trap-Black.otf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Trap";
+  src: url("./fonts/Trap_V1.1/Trap-ExtraBold.otf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {  
+  font-family: "Trap";
+  src: url("./fonts/Trap_V1.1/Trap-Light.otf") format("truetype");
+  font-weight: light;
+  font-style: normal;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

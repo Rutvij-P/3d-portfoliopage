@@ -4,6 +4,10 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      fontFamily: {
+        guminert: ["Guminert", "sans-serif"],
+        Trap: ["Trap", "sans-serif"],
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -21,6 +25,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      
     },
   },
   plugins: [],
