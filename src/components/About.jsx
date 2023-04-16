@@ -45,13 +45,12 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] font-light'
+        className='mt-4 text-secondary text-[20px] max-w-3xl leading-[30px] font-light'
       >
-        I am an ambitious and dedicated Computer Science student with a passion 
-        for technology and innovation. During my undergraduate studies, I have 
-        excelled in various courses, including programming languages, 
-        data structures, and algorithms. In addition, I have developed a keen 
-        interest in emerging technologies such as machine learning and artificial intelligence.
+        As a passionate and dedicated computer science student, I have excelled in various 
+        areas of my undergraduate studies, including programming languages, data structures, 
+        and algorithms. My curiosity and enthusiasm for emerging technologies such as machine 
+        learning and artificial intelligence drive me to constantly innovate and think outside the box.
       </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>

@@ -144,26 +144,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+      name: "Bruce Lee",
       designation: "CFO",
-      company: "Acme Co",
+      company: "Batman Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
       name: "Chris Brown",
       designation: "COO",
-      company: "DEF Corp",
+      company: "DEAF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      name: "Black Widow",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "Hulk Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
