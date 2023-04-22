@@ -28,9 +28,10 @@ import tesla from "./company/tesla.png";
 import ssm from "./company/ssm.png";
 import sfsu from "./company/sfsu.png";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import sumharness from "./sumharness.png";
+import profilep from "./profilepage.png";
 
 export {
   logo,
@@ -58,9 +59,10 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
   tripguide,
   ssm,
   sfsu,
+  sumharness,
+  profilep,
 };

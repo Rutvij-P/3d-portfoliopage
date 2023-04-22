@@ -8,23 +8,18 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    sumharness,
     jobit,
-    tripguide,
     threejs,
     ssm,
     sfsu,
+    profilep
   } from "../assets";
   
   export const navLinks = [
@@ -170,30 +165,34 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Cori & PerlMutter",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Using the runtime data from the code, computed some derived performance metrics like – MFLOP/s, % memory bandwidth utilized, memory latency – then create charts of this data using py-scripts and answer some performance analysis questions. ",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "python",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CMake",
           color: "pink-text-gradient",
         },
+        {
+          name: "Makefile",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: sumharness,
+      source_code_link: "https://github.com/Rutvij-P/sum_harness",
     },
     {
       name: "Job-Gram",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Worked along with a team of 6 as a FrontEnd Lead to prepare fullstack Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
           name: "react",
@@ -217,12 +216,12 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/Rutvij-P/csc648-02-fa22-team05",
+      source_code_link: "http://ec2-3-101-144-131.us-west-1.compute.amazonaws.com/",  // Web-Link, Source-Code-Link is private
     },
     {
       name: "Rutu's Portfolio",
       description:
-        "A comprehensive 3D Portfolio page to highlight my skills, accomplishments, and experiences, and demonstrate my potential as a future professional.",
+        "A comprehensive 3D Portfolio page using recent frameworks to highlight my skills, accomplishments, and experiences, and demonstrate my potential as a future professional.",
       tags: [
         {
           name: "vite",
@@ -249,7 +248,7 @@ import {
           color: "pink-text-gradient",
         }
       ],
-      image: tripguide,
+      image: profilep,
       source_code_link: "https://github.com/Rutvij-P/3d-portfoliopage",
     },
   ];
