@@ -28,10 +28,9 @@ import tesla from "./company/tesla.png";
 import ssm from "./company/ssm.png";
 import sfsu from "./company/sfsu.png";
 
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import sumharness from "./sumharness.png";
-import profilep from "./profilepage.png";
+import jobit from "./jobit.svg";
+import sumharness from "./sumharness.svg";
+import profilep from "./profilepage.svg";
 
 export {
   logo,
@@ -60,7 +59,6 @@ export {
   starbucks,
   tesla,
   jobit,
-  tripguide,
   ssm,
   sfsu,
   sumharness,
