@@ -15,11 +15,13 @@ import {
     figma,
     docker,
     sumharness,
+    webprofile,
     jobit,
     threejs,
     ssm,
     sfsu,
-    profilep
+    profilep,
+    gymapp,
   } from "../assets";
   
   export const navLinks = [
@@ -165,31 +167,6 @@ import {
   
   const projects = [
     {
-      name: "Cori & PerlMutter",
-      description:
-        "Using the runtime data from the code, computed some derived performance metrics like – MFLOP/s, % memory bandwidth utilized, memory latency – then create charts of this data using py-scripts and answer some performance analysis questions. ",
-      tags: [
-        {
-          name: "C++",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "python",
-          color: "green-text-gradient",
-        },
-        {
-          name: "CMake",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Makefile",
-          color: "orange-text-gradient",
-        },
-      ],
-      image: sumharness,
-      source_code_link: "https://github.com/Rutvij-P/sum_harness",
-    },
-    {
       name: "Job-Gram",
       description:
         "Worked along with a team of 6 as a FrontEnd Lead to prepare fullstack Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
@@ -221,7 +198,7 @@ import {
     {
       name: "Rutu's Portfolio",
       description:
-        "A comprehensive 3D Portfolio page using recent frameworks to highlight my skills, accomplishments, and experiences, and demonstrate my potential as a future professional.",
+        "A comprehensive 3D Portfolio page using recent frameworks to highlight my skills, projects, and experiences, and demonstrate my potential so reach out to connect!",
       tags: [
         {
           name: "vite",
@@ -236,7 +213,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "threejs",
+          name: "three.js",
           color: "orange-text-gradient",
         },
         {
@@ -250,6 +227,77 @@ import {
       ],
       image: profilep,
       source_code_link: "https://github.com/Rutvij-P/3d-portfoliopage",
+    },
+    {
+      name: "LocomotiveScroll Gallery",
+      description:
+        "Created a very user friendly locomotive scroll gallery with Parallax effect with a very responsive UI and a very smooth scrolling experience.",
+      tags: [
+        {
+          name: "Gatsby",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: webprofile,
+      source_code_link: "https://jivtur-portfolio-fg1q3qhyf-rutvij-p.vercel.app",
+    },
+    {
+      name: "Workout Recipe App",
+      description:
+        "Created an iOS Application from ground-up using SwiftUI and Swift. It is a workout recipe app that allows users to create their own workout recipes and share with other users.",
+      tags: [
+        {
+          name: "SwiftUI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Figma",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Swift",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gymapp,
+      source_code_link: "https://github.com/Rutvij-P/GymMealApp",
+    },
+    {
+      name: "Cori & PerlMutter",
+      description:
+        "Using the runtime data from the code, computed some derived performance metrics using OpenMP Parallelism and more then create charts of this data using py-scripts.",
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CMake",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Makefile",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: sumharness,
+      source_code_link: "https://github.com/Rutvij-P/sum_harness",
     },
   ];
   

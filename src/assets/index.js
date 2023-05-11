@@ -31,6 +31,8 @@ import sfsu from "./company/sfsu.png";
 import jobit from "./jobit.svg";
 import sumharness from "./sumharness.svg";
 import profilep from "./profilepage.svg";
+import webprofile from "./webprofile.svg";
+import gymapp from "./iOSGymApp.svg"
 
 export {
   logo,
@@ -63,4 +65,6 @@ export {
   sfsu,
   sumharness,
   profilep,
+  webprofile,
+  gymapp,
 };
