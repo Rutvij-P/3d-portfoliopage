@@ -78,7 +78,7 @@ const Works = () => {
       <div className="full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] font-normal"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify font-normal"
         >
           I am a Software Engineer student who is graduating soon and seeking a job in 
           the industry. In this section, I display some of the projects I have completed 

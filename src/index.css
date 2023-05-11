@@ -173,7 +173,7 @@
   transform: translateZ(0);
 }
 body {
-	background: linear-gradient(-45deg, #411101, #000000, #0d0035, #000000);
+	background: linear-gradient(-45deg, #411101, #000000, #060035, #000000);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;

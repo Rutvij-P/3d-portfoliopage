@@ -45,7 +45,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[20px] max-w-3xl leading-[30px] font-light'
+        className='mt-4 text-secondary text-[20px] max-w-3xl leading-[30px] text-justify font-light'
       >
         As a passionate and dedicated computer science student, I have excelled in various 
         areas of my undergraduate studies, including programming languages, data structures, 
